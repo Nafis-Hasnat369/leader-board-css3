@@ -3,7 +3,7 @@
 /* common style or utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;
+    background-color: rgb(39, 39, 39);
 }
 main{
     display: flex;
@@ -11,15 +11,12 @@ main{
     align-items: center;
 }
 .container{
-    background-color: #FFFFFF;
+    background-color: black;
+    color: white;
     width: 870px;
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 21px;
-}
-hr{
-    border: 1px solid #D1D1D1;
-    margin-bottom: 27px;
 }
 /* top players style */
 .top-players{
@@ -28,7 +25,6 @@ hr{
 .section-title{
     color: #562EFF;
     font-size: 24px;
-    line-height: 36px;
     margin-top: 3px;
 }
 .players{
@@ -47,6 +43,10 @@ hr{
 .player-name{
     margin-left: 16px;
     font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
 }
 /* ----------------------
     top blog styles 
@@ -87,11 +87,16 @@ hr{
     grid-column-gap: 24px;
 }
 .course{
-    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5.34229px 13.3557px rgb(156, 54, 54);
+    padding: 10px;
+    border-radius: 10px;
 }
 .course .course-banner img{
     width: 224px;
     height: 104px;
+}
+.course-author{
+    color: aqua;
 }
 .course-info{
     display: flex;
@@ -132,7 +137,9 @@ hr{
         align-items: center;
     }
 }
-/* Tablet devices  */
+/* --------------------
+    Tablet devices 
+    ------------------- */
 @media only screen and (min-width:689px) and (max-width:993px) {
     .container{
         width: 100%;
